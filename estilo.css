@@ -1,0 +1,179 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+  
+}
+.link{
+    color:white;
+    text-decoration: none; 
+}
+li{
+   
+    text-decoration: none;
+    list-style: none;   
+    float: left;
+    padding: 20 10 20 10;
+    padding: 23px;
+}
+li:hover {
+    background-color: #01AAEA;
+}
+#fundo{
+    background: url("imagem/fundo1.jpg");
+    height: 115%;
+    text-align: center;
+    padding: 1%;
+    background-size: cover;
+}
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+    text-shadow: 5px -5px black; 
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+}
+.destaque {
+    background-color: #f7f7f7;
+}
+p{
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+.justificado{
+    text-align: justify;
+}
+.coluna {
+    text-align: center;
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.um {
+    width:90%;
+
+}
+.dois {
+    width:40%;
+
+}
+.identa{
+    margin-top: 8%;
+}
+.tres {
+    width: 23%;
+}
+#projeto{
+    text-align: center;
+    display:inline-block;
+    background-color:#F1FAD7
+    padding: -5%;
+    margin-top: -10%;
+    
+}
+#dados{
+    display:inline-block;
+    background-color:#D8EDDB;
+    
+    
+}
+.dados{
+    width: 30%;
+}
+#formas{
+    text-align: center;
+    display:inline-block;
+    background-color: #ecf3f2;
+    padding: -2%;
+    margin-top: 0%;
+}
+#sobre {
+    display:inline-block;
+    background-color: #BAD9CA
+    padding: -5%;
+    text-align: center;
+}
+footer {
+    display:inline-block;
+    background-color: #95C2BA;
+    float: left;
+    width: 100%;
+    height: 40%;
+    color: white;
+    text-align: center;
+}
+.icone{
+    width: 51px;
+
+}
+.icn{
+    float: left;
+    width: 33.33%;
+    bottom: 500%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#eu{
+    width: 20%;
+    position: relative;
+    left:10% ;
+}
+footer{
+    text-decoration:none;
+}
+
+@media all and ( max-width: 768){
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .dois, .cinco {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+    }
+    #logo{
+        margin-left: 0px;
+        transform: translate(-50%);
+    }
+}
+
+
